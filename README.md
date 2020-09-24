@@ -6,4 +6,4 @@ How to run:
 git clone https://github.com/long-ht/hand-snake  
 npm install  
 run the index.html file
-```# Hand-Snake
+```

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/png" href="images/favicon.png" />
+  <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/8bit-wonder" type="text/css" />
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs/dist/tf.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/handpose">  </script>
+  <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="first-div">
+    <p id="title">HandSnake</p>
+    <p>High score</p>
+    <p id="point">0</p>
+    <button id="start" class="btn">Loading...</button>
+  </div>
+  <div class="second-div">
+    <canvas id="game" width=1000 height=750></canvas>
+  </div>
+  <div class="third-div">
+    <div>
+      <video id="video" width="500" height="500" autoplay></video>
+    </div>
+    <div class="webcam-control glowing-border">
+      <img id="up" src="images/up.png"></img>
+      <img id="left" src="images/left.png"></img>
+      <img id="right" src="images/right.png"></img>
+      <img id="down" src="images/down.png"></img>
+    </div>
+  </div>
+
+  <canvas id="control"></canvas>
+  <script src="gesture.js"></script>
+  <script src="game.js"></script>
+
+</body>
+
+</html>

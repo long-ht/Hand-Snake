@@ -1,0 +1,102 @@
+body {
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 150%;
+    font-family: '8BITWONDERNominal';
+    font-weight: normal;
+    font-style: normal;
+    padding: 2em 0;
+}
+
+#title {
+    font-size: 150%;
+}
+
+canvas {
+    border-style: groove;
+    border: 3px solid whitesmoke;
+    border-radius: 5px;
+    top: 10%;
+}
+
+div {
+    display: block;
+    float: left;
+}
+
+#control {
+    display: none;
+}
+
+.glowing-border>img {
+    border: 2px solid white;
+    border-radius: 7px;
+    height: 100px;
+    width: 100px;
+}
+
+.btn {
+    text-align: center;
+    font-family: inherit;
+    background: #7C7C7C;
+    border-bottom: 6px inset rgba(0, 0, 0, .5);
+    border-left: 6px inset rgba(0, 0, 0, .5);
+    border-right: 6px inset rgba(255, 255, 255, .5);
+    border-top: 6px inset rgba(255, 255, 255, .5);
+    box-sizing: border-box;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 2.2rem;
+    margin: 1rem;
+    min-width: 200px;
+    padding: .5rem;
+    text-transform: uppercase;
+    width: auto;
+    background: #881400;
+}
+
+.btn:hover {
+    background: #A81000;
+}
+
+/* .webcam-control.glowing-border {
+    margin-top: 500px;
+    margin-left: 0;
+} */
+
+.first-div {
+    padding: 2em 2em;
+}
+
+.third-div {
+    width: 350px;
+    padding: 2em 2em;
+}
+
+video {
+    height: 300px;
+    width: 300px;
+    margin: 0 25px;
+    border: 2px solid white;
+    border-radius: 7px;
+}
+
+#up {
+    margin: 1em 3em 0.5em 3em;
+}
+
+#right {
+    margin-left: 2em;
+}
+
+#left {
+    margin-right: 2em;
+}
+
+#down {
+    margin: 0.5em 3em 1em 3em;
+}
